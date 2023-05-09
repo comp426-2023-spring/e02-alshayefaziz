@@ -81,3 +81,23 @@ function showHideShots() {
       resultsDiv.innerHTML = `${you}<br>${opponent}<br>${outcome}`;
     }
   }
+
+  function myFunction() {
+    var checkBox = document.getElementById("myCheck");
+    var text = document.getElementById("text");
+    if (checkBox.checked == true){
+      text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+  }
+
+  function myFunction1() {
+    var checkBox = document.getElementById("myCheck1");
+    var text = document.getElementById("text");
+    if (checkBox.checked == true){
+      text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
+  }

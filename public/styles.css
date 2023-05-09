@@ -1,10 +1,20 @@
 body {
 	padding: 85px 0;
-	text-align: center;
+	background-color: rgb(23, 229, 219);
 }
 
 h1 {
 }
 
-p {
+p { font-size: 20px;
+}
+label {
+	font-size: 20px;
+	font-weight: 1000;
+	padding-top: 25px;
+}
+div {
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 30px;
 }
