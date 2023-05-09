@@ -105,7 +105,7 @@ process.on('SIGINT', () => {
 
 
 import {rps, rpsls} from "./lib/rpsls.js"
-i
+
 
 
 app.use(express.json());
